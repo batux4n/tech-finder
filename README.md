@@ -1,54 +1,41 @@
-# React + TypeScript + Vite
+# Tech Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project helps users discover technologies for building different types of applications. Users can search for the tools and technologies they need for their project by selecting the project type and desired technologies.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the demo screenshots of the Tech Finder app:
 
-## Expanding the ESLint configuration
+![Screenshot 1](./tech-finder/screenshots/ss1.png)
+![Screenshot 2](./tech-finder/screenshots/ss2.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Technologies Used
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **React**: Used to build the user interface.
+- **Vite**: Used for development server and fast builds.
+- **TypeScript**: Ensures type safety and better developer experience.
+- **CSS**: Used for styling the application.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Setup Information
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+This project uses **React** and **Vite** for fast development and builds.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Vite provides a minimal setup for React with **Hot Module Replacement (HMR)** and **ESLint** integration.
+
+## Installation
+
+Follow these steps to get the project up and running:
+
+1. **Clone the Project Repository**:
+   ```bash
+   git clone https://github.com/batux4n/tech-finder.git
+   cd tech-finder
+   npm install
+   npm run dev
+
+## Contributing
+Feel free to fork the repository and submit a pull request if you'd like to contribute to the project.
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
