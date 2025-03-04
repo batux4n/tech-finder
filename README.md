@@ -6,8 +6,8 @@ This project helps users discover technologies for building different types of a
 
 Check out the demo screenshots of the Tech Finder app:
 
-![Screenshot 1](./tech-finder/screenshots/ss1.png)
-![Screenshot 2](./tech-finder/screenshots/ss2.png)
+![Screenshot 1](./screenshots/ss1.png)
+![Screenshot 2](./screenshots/ss2.png)
 
 ## Technologies Used
 
